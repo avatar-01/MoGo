@@ -212,6 +212,7 @@ font-weight: 400;
 }
 
 .section_s{
+    margin-top: 40px;
     font-family: 'Cookie', cursive;
     font-size: 34px;
     color: black;
@@ -756,6 +757,7 @@ font-weight: 400;
     border: 1px rgba(223, 223, 223, 0.4) solid;
     position: relative;
     background: rgba(223, 223, 223, 0.8) ;
+    cursor: pointer;
 }
 
 .end{
@@ -781,4 +783,55 @@ font-weight: 400;
 
 .avatar_chat{
     border-radius: 25%;
+}
+
+
+.comment_block{
+    background-image: url(../img/commet.jpg) ;
+    background-blend-mode: color;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.comment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 60px;
+}
+ .comment_author{
+    font-size: 16px;
+    color: black;
+    font-family: 'Arial Now';
+}
+
+.author_s{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.author_t{
+    font-size: 14px;
+}
+
+.comment_avatar{
+    top: 5%;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.author_t:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: rgb(218, 68, 68);
+    margin: 15px 0px;
+}
+
+.comment_t{
+    font-size: 14px;
 }
