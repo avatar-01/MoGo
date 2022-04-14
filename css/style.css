@@ -835,3 +835,76 @@ font-weight: 400;
 .comment_t{
     font-size: 14px;
 }
+
+.stories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.stor_img{
+    margin: 0, 20px;
+    position: relative;
+    margin-top: 60px;
+}
+
+.stor_txt{
+    position: absolute;
+    bottom: 20px;
+    color: aliceblue;
+    background-color: rgba(80, 177, 145, 0.8);
+    width: 60px;
+    left: -20px;
+    text-align: center;
+}
+
+.store_n{
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.store_t{
+    font-size: 24px;
+    font-family: 'Cookie';
+}
+
+.store_commet{
+    width: 360px;
+}
+
+.store_name{
+    font-size: 16px;
+    color: black;
+    font-family: 'Arial Now';
+    text-transform: uppercase;
+    align-self: 20px;
+    margin-bottom: 12px;
+}
+
+.store_com{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    color: #999;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.store_com:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(124, 124, 124);
+    top: 120%;
+    position: absolute;
+    z-index: 1;
+}
+
+.watch{
+    width: 33%;
+    display: grid;
+    grid-template-columns: repeat(2, 60px);
+    margin-top: 32px;
+    font-size: 12px;
+    color: rgba(80, 177, 145, 0.9);
+}
