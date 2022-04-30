@@ -18,6 +18,11 @@ h6 {
     margin: 0;
 }
 
+a{
+    text-decoration:none;
+    color: black;
+}
+
 .head{
     padding-top: 30px;
     width: 100%;
@@ -907,4 +912,156 @@ font-weight: 400;
     margin-top: 32px;
     font-size: 12px;
     color: rgba(80, 177, 145, 0.9);
+}
+
+
+
+
+
+
+
+
+
+.map_section{
+    margin: 0 auto;
+    background-image: url(../img/map.jpg);
+    width: 100%;
+    opacity: 0.8;
+    padding: 5px;
+    margin-top: 40px;
+    border: black solid 2px;
+}
+
+
+.GPS:hover{
+    color: #f38181;
+    transition: all .8s;
+}
+
+.GPS:active{
+    transform: translateY(20px);
+    transition: all .3s;
+}
+
+.GPS{
+    color: rgb(200, 0, 0);
+    transition: all .3s;
+}
+
+.gps_txt{
+    color: rgb(200, 0, 0);
+}
+
+.basement{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.bas_N{
+    color: rgba(153, 153, 153, 0.8);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.bas_Nt{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    margin-bottom: 10px;
+}
+
+.follow{
+    margin-top: 40px;
+    font-size: 15px;
+    color: rgb(5, 5, 5);
+}
+
+.foll_n{
+    font-size: 20px;
+    color: black;
+}
+
+.line{
+    margin: 15px 0;
+    border-bottom: solid 1px black;
+}
+
+.foll_us{
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.chain{
+    font-size: 18px;
+    color: rgb(0, 99, 99);
+    margin-left:10px;
+    transition: all .4s;
+}
+
+.chain:hover{
+    color: #883b3b;
+    transition: all .4s;
+}
+
+.bas_nt{
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-auto-rows: 100px;
+    grid-gap: 15px;
+}
+
+.bas_blog{
+
+}
+
+.bas_blog_txt{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.data{
+    font-size: 14px;
+    font-family: cursive;
+    color: rgba(107, 107, 107, 0.8);
+}
+
+.bas_n{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Arial Now';
+    margin-bottom: 30px;
+}
+
+.bas_nt_photo{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 3px;
+    grid-auto-rows: 100px;
+}
+
+.gallery{
+    font-size: 14px;
+    font-family: 'Arial Now', cursive;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    transition: all .4s;
+}
+
+.gallery:hover{
+    color: rgb(116, 130, 143);
+    transition: all .4s;
+}
+
+.line_data{
+    margin-top: 80px;
+}
+
+.final{
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
 }
